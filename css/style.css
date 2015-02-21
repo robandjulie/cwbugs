@@ -42,7 +42,7 @@ h1, h2, h3, h4, h5, h6,
 	position: relative;
 	left: 250px;
 	background-color: #fff;
-	
+
 }
 #navigation {
 	float: left;
@@ -93,14 +93,14 @@ body.front #content-well {
 	width: 250px;
 }
 
-#block-superfish-1 .sf-vertical li:hover > ul, 
+#block-superfish-1 .sf-vertical li:hover > ul,
 #block-superfish-1 .sf-vertical li.sfHover > ul {
 	left: 14.5em;
 }
 
 ul#superfish-1 * {
 	font-family: 'Pathway Gothic One', "Futura-CondensedMedium", "HelveticaNeue-Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 17px;	
+	font-size: 17px;
 	background-color: #ef6a25;
 	color: #fff;
 	letter-spacing: .2px;
@@ -142,7 +142,7 @@ div.interact {
 
 a#donate-button, a#buy-tickets-register-button,
 a#donate-button:hover, a#buy-tickets-register-button:hover,
-.blue-button, .blue-button:hover, 
+.blue-button, .blue-button:hover,
 .field-name-field-footer-link a, .field-name-field-footer-link a:hover {
 	font-family: 'Pathway Gothic One', "Futura-CondensedMedium", "HelveticaNeue-Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-transform: uppercase;
@@ -156,7 +156,7 @@ a#donate-button:hover, a#buy-tickets-register-button:hover,
 }
 
 a#donate-button,
-.blue-button, 
+.blue-button,
 .field-name-field-footer-link a {
 	background-color: #8cdde0;
 	border-bottom: 1px solid #39b9be;
@@ -217,7 +217,7 @@ div.social-media a:hover {
 	float: left;
 	margin-right: 10px;
 	text-decoration: none;
-	
+
 	background-repeat: no-repeat;
 }
 
@@ -264,7 +264,7 @@ div.social-media a.vimeo {
 
 
 .fieldable-panels-pane .field-name-field-pane-title,
-.fieldable-panels-pane .field-name-field-body, 
+.fieldable-panels-pane .field-name-field-body,
 .cf-box-title,
 .cf-box-body {
 	margin: 0px 20px 20px;
@@ -367,7 +367,7 @@ div.social-media a.vimeo {
 	margin-bottom: 100px;
 }
 
-#homepage-slideshow .views-field-field-carousel-image, 
+#homepage-slideshow .views-field-field-carousel-image,
 #homepage-slideshow .views-field-field-carousel-image * {
 	z-index: -10000;
 }
@@ -463,12 +463,12 @@ div.view.view-sponsors.view-display-id-block .views-row img {
 	font-family: 'Pathway Gothic One', "Futura-CondensedMedium", "HelveticaNeue-Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #94DDE4;
 	font-size: 16px;
-	width: 20%;	
+	width: 20%;
 	float: left;
 	padding-right: 30px;
 	margin-bottom: 30px;
 	/* border: 1px dotted orange; */
-} 
+}
 
 .menu-block-1.menu-name-main-menu > ul > li a,
 .menu-block-1.menu-name-main-menu > ul > li a:hover {
@@ -546,7 +546,7 @@ h2.director {
 .breadcrumb .breadcrumb-inner a {
 	font-size: 11px;
 	color: #999;
-	text-decoration: none;	
+	text-decoration: none;
 }
 
 .region.region-content {
@@ -598,7 +598,7 @@ body.node-type-screening .group-footer {
 	width: 100%;
 	float: left;
 	font-size: .9em;
-	color: #999;	
+	color: #999;
 	margin-top: 80px;
 }
 
@@ -738,7 +738,7 @@ body.page-calendar .calendar-calendar td .inner {
 }
 
 /* VIEW */
-.view-sponsored-projects.view-id-sponsored_projects .views-field-field-featured-image {
+.view-sponsored-projects.view-id-sponsored_projects .views-field-field-featured-image,.view-cdmpf-recipients .views-field-field-featured-image {
 	float: left;
 	margin-right: 15px;
 }
@@ -751,21 +751,24 @@ body.page-calendar .calendar-calendar td .inner {
 }
 */
 
-div.view-sponsored-projects.view-id-sponsored_projects div.views-field.views-field-field-video {
+div.view-sponsored-projects.view-id-sponsored_projects div.views-field.views-field-field-video, div.view-cdmpf-recipients div.views-field.views-field-field-video {
 	width: 240px;
 	float: left;
 	margin-right: 15px;
 }
 
-.view-sponsored-projects.view-id-sponsored_projects table.views-view-grid td {
-	padding-bottom: 30px;
+/* =RPJD */
+
+.view-sponsored-projects.view-id-sponsored_projects table.views-view-grid td, .view-cdmpf-recipients table.views-view-grid td {
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
 
-.view-sponsored-projects tr {
+.view-sponsored-projects tr, .view-cdmpf-recipients tr {
 	border-bottom: solid 1px darkgray;
 }
 
-.view-sponsored-projects tr.row-last {
+.view-sponsored-projects tr.row-last, .view-cdmpf-recipients tr.row-last {
 	border-bottom: none;
 }
 
@@ -777,7 +780,6 @@ div.view-sponsored-projects.view-id-sponsored_projects div.views-field.views-fie
 	float: left;
 	margin-right: 15px;
 }
-
 .views-view-grid td {
 	vertical-align: top;
 }
@@ -796,3 +798,80 @@ div.view-sponsored-projects.view-id-sponsored_projects div.views-field.views-fie
 	max-width: 100%;
 	height: auto;
 }
+
+/* JFF styles */
+
+.faq {
+	counter-reset: my-badass-counter;
+}
+.faq dt:before {
+	content: counter(my-badass-counter);
+	counter-increment: my-badass-counter;
+}
+
+.faq {
+			counter-reset: my-badass-counter;
+		}
+		.faq dt {
+			position: relative;
+			font: bold 16px ;
+			padding: 17px 0px 10px 0px;
+		}
+		.faq dt:before {
+			content: counter(my-badass-counter);
+			counter-increment: my-badass-counter;
+			position: absolute;
+			left: 0;
+			top: 0;
+			font: bold 20px/1 Sans-Serif;
+			background-color:#8FDFE2;
+			padding: 15px;
+      padding-left:20px;
+      padding-right:20px;
+			border-radius: 100px;
+      color:white;
+     
+			
+		
+		}
+		.faq dd {
+			margin: 0px 0px 20px 0px;
+		}	
+		.faq dt, .faq dd {
+			padding-left: 60px;
+			padding-right:50px;
+      
+		}
+
+.views-field-field-tickets-url a {
+	 border-top: 1px solid #000000;
+   background: #4d7b7d;
+   background: -webkit-gradient(linear, left top, left bottom, from(#8cdde0), to(#4d7b7d));
+   background: -webkit-linear-gradient(top, #8cdde0, #4d7b7d);
+   background: -moz-linear-gradient(top, #8cdde0, #4d7b7d);
+   background: -ms-linear-gradient(top, #8cdde0, #4d7b7d);
+   background: -o-linear-gradient(top, #8cdde0, #4d7b7d);
+   padding: 2px 8px;
+   -webkit-border-radius: 11px;
+   -moz-border-radius: 11px;
+   border-radius: 11px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 12px;
+   font-family: Helvetica, Arial, Sans-Serif;
+   text-decoration: none;
+   vertical-align: middle;	
+	
+	
+}
+
+.views-field-field-tickets-url a:hover {
+   border-top-color: #28597a;
+   background: #28597a;
+   color: #ccc;
+   }
+
+/* END JFF styles */
