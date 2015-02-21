@@ -1,0 +1,13 @@
+/* THIS CSS FILE APPLIED SITEWIDE WHEN EDITOR ROLE IS LOGGED IN */
+
+
+/* Fieldable panel panes forms */
+#fieldable-panels-panes-entity-edit-form .form-item-title, 
+#fieldable-panels-panes-entity-edit-form .form-item-reusable, 
+#fieldable-panels-panes-entity-edit-form .form-item-admin-title {
+	display: none !important;
+}
+
+/* Admin Menu CSS */
+#admin-menu-menu > li:nth-child(4) > a {
+}
