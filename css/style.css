@@ -850,20 +850,8 @@ div.view-sponsored-projects.view-id-sponsored_projects div.views-field.views-fie
 		}
 
 .views-field-field-tickets-url a {
-	 border-top: 1px solid #000000;
-   background: #4d7b7d;
-   background: -webkit-gradient(linear, left top, left bottom, from(#8cdde0), to(#4d7b7d));
-   background: -webkit-linear-gradient(top, #8cdde0, #4d7b7d);
-   background: -moz-linear-gradient(top, #8cdde0, #4d7b7d);
-   background: -ms-linear-gradient(top, #8cdde0, #4d7b7d);
-   background: -o-linear-gradient(top, #8cdde0, #4d7b7d);
+   background: #8CDDE0;
    padding: 2px 8px;
-   -webkit-border-radius: 11px;
-   -moz-border-radius: 11px;
-   border-radius: 11px;
-   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
-   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
-   box-shadow: rgba(0,0,0,1) 0 1px 0;
    text-shadow: rgba(0,0,0,.4) 0 1px 0;
    color: white;
    font-size: 12px;
