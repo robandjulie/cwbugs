@@ -143,7 +143,8 @@ div.interact {
 a#donate-button, a#buy-tickets-register-button,
 a#donate-button:hover, a#buy-tickets-register-button:hover,
 .blue-button, .blue-button:hover,
-.field-name-field-footer-link a, .field-name-field-footer-link a:hover {
+.field-name-field-footer-link a, .field-name-field-footer-link a:hover,
+.view .more-link a {
 	font-family: 'Pathway Gothic One', "Futura-CondensedMedium", "HelveticaNeue-Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-transform: uppercase;
 	color: #fff;
@@ -157,7 +158,8 @@ a#donate-button:hover, a#buy-tickets-register-button:hover,
 
 a#donate-button,
 .blue-button,
-.field-name-field-footer-link a {
+.field-name-field-footer-link a,
+.view .more-link a {
 	background-color: #8cdde0;
 	border-bottom: 1px solid #39b9be;
 	text-shadow: 1px 1px 1px #39b9be;
@@ -776,6 +778,10 @@ div.view-sponsored-projects.view-id-sponsored_projects div.views-field.views-fie
 	float: right;
 }
 
+
+
+/* =RPJD end */
+
 .view-id-classes .views-field-field-featured-image {
 	float: left;
 	margin-right: 15px;
@@ -830,17 +836,17 @@ div.view-sponsored-projects.view-id-sponsored_projects div.views-field.views-fie
       padding-right:20px;
 			border-radius: 100px;
       color:white;
-     
-			
-		
+
+
+
 		}
 		.faq dd {
 			margin: 0px 0px 20px 0px;
-		}	
+		}
 		.faq dt, .faq dd {
 			padding-left: 60px;
 			padding-right:50px;
-      
+
 		}
 
 .views-field-field-tickets-url a {
@@ -863,9 +869,9 @@ div.view-sponsored-projects.view-id-sponsored_projects div.views-field.views-fie
    font-size: 12px;
    font-family: Helvetica, Arial, Sans-Serif;
    text-decoration: none;
-   vertical-align: middle;	
-	
-	
+   vertical-align: middle;
+
+
 }
 
 .views-field-field-tickets-url a:hover {
