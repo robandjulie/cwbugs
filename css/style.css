@@ -805,7 +805,7 @@ div.view-sponsored-projects.view-id-sponsored_projects div.views-field.views-fie
 	height: auto;
 }
 
-/* JFF styles */
+/* -------------------------------------------------------------------------------------------------JFF styles */
 
 .faq {
 	counter-reset: my-badass-counter;
@@ -849,15 +849,5 @@ div.view-sponsored-projects.view-id-sponsored_projects div.views-field.views-fie
 
 		}
 
-.views-field-field-tickets-url a {
-   background: #d75513;
-   padding: 2px 8px;
-   text-shadow: rgba(0,0,0,.4) 0 1px 0;
-   color: white;
-   font: normal 12px Helvetica, Arial, Sans-Serif;
-   text-decoration: none;
-   text-transform: uppercase;
-   vertical-align: middle;
-}
 
 /* END JFF styles */
