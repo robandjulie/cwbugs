@@ -126,8 +126,9 @@
 
     </div>
 
+    <!-- =SCREENINGDATES -->
     <div id='screening-dates'>
-      <?php print render($content['field_screening_dates']); ?>
+      <?php print render($content['field_location_date_tickets_url']); ?>
     </div>
 
   </div>

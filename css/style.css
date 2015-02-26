@@ -608,7 +608,7 @@ body.node-type-screening .group-footer {
 	border-bottom: none;
 }
 
-.field-name-field-screening-dates .field-item {
+.field-name-field-screening-dates .field-item, .field-name-field-location-date-tickets-url .field-item {
 	border: 1px solid #8cdde0;
 	padding-top: 25px;
 	padding-right: 25px;
@@ -616,20 +616,20 @@ body.node-type-screening .group-footer {
 	float: left;
 }
 
-.field-name-field-screening-dates .field-item.even {
+.field-name-field-screening-dates .field-item.even, .field-name-field-location-date-tickets-url .field-item.even {
 	margin-left: 37px;
 }
 
-.field-name-field-screening-dates .field-item.odd {
+.field-name-field-screening-dates .field-item.odd, .field-name-field-location-date-tickets-url .field-item.odd {
 	margin-left: 75px;
 }
 
 
-.field-name-field-screening-dates .screening-date-wrapper {
+.field-name-field-screening-dates .screening-date-wrapper, .field-name-field-location-date-tickets-url .location-date-tickets-url-wrapper {
 	position: relative;
 }
 
-.field-name-field-screening-dates .screening-date {
+.field-name-field-screening-dates .screening-date, .field-name-field-location-date-tickets-url .location-date-tickets-url-date  {
 	width: 130px;
 	height: 130px;
 	background-color: #ef6a25;
@@ -640,27 +640,27 @@ body.node-type-screening .group-footer {
 	float: left;
 }
 
-.field-name-field-screening-dates.field-type-field-collection .field-collection-view {
+.field-name-field-screening-dates.field-type-field-collection .field-collection-view, .field-name-field-location-date-tickets-url.field-type-field-collection .field-collection-view {
 	margin: 0px;
 	padding: 0px;
 }
 
-.field-name-field-screening-dates .screening-location {
+.field-name-field-screening-dates .screening-location, .field-name-field-location-date-tickets-url .location-date-tickets-url-location {
 	margin-bottom: 30px;
 }
 
-.field-name-field-screening-dates .screening-date .month {
+.field-name-field-screening-dates .screening-date .month, .field-name-field-location-date-tickets-url .location-date-tickets-url-date .month {
 	font-size: 3em;
 	text-transform: uppercase;
 	margin-top: 4px;
 }
-.field-name-field-screening-dates .screening-date .day {
+.field-name-field-screening-dates .screening-date .day, .field-name-field-location-date-tickets-url .location-date-tickets-url-date .day {
 	font-size: 6em;
 	margin-top: -31px;
 	margin-left: -3px;
 }
 
-.field-name-field-screening-dates .screening-tickets a {
+.field-name-field-screening-dates .screening-tickets a, .field-name-field-location-date-tickets-url .location-date-tickets-url-tickets a {
 	position: absolute;
 	bottom: 0px;
 	right: 0px;
