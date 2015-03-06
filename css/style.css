@@ -165,7 +165,10 @@ a#donate-button,
 	text-shadow: 1px 1px 1px #39b9be;
 	margin-bottom: 4px;
 	color: #fff !important;
+}
 
+.small-button {
+	margin: 1em 2em 1em 0;
 }
 
 a#buy-tickets-register-button {
