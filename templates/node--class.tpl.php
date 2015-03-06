@@ -90,41 +90,16 @@
 
   <div class="content"<?php print $content_attributes; ?>>
 
-      <?php
-        /*
-        (
-    [0] => links
-    [1] => field_video
-    [2] => body
-    [3] => field_director
-    [4] => field_country_origin
-    [5] => field_duration
-    [6] => field_year_released
-) 
-        */
-      ?>
-
-    <div id='screening-video' class='fitvids-container'>
-      <?php print render($content['field_video']); ?>
-    </div>    
-
-    <div id='screening-details'>
+    <div id='class-details'>
 
       <?php print render($content['body']); ?>
 
-      <div class='screening-details-footer field'>
-        <?php 
+      <div class='class-details-footer field'>
+        <?php
           print implode(array(
-            $content['field_country_origin']['#items'][0]['value'],
-            $content['field_year_released']['#items'][0]['value'],
-            $content['field_duration']['#items'][0]['value'] . ' min'
+            $content['field_class_duration']['#items'][0]['value'] . ' min'
           ), ", ");
         ?>
-
-        <!-- =SCREENINGDATES -->
-        <div id='screening-dates'>
-          <?php print render($content['field_date_time']['#items'][0]['value']); ?>
-        </div>
 
       </div>
 

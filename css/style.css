@@ -777,7 +777,9 @@ div.view-sponsored-projects.view-id-sponsored_projects div.views-field.views-fie
 	float: right;
 }
 
-
+.node-class .group-left .field {
+	padding-top: 0.5em;
+}
 
 /* =RPJD end */
 
