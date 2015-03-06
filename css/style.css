@@ -836,38 +836,33 @@ div.view-sponsored-projects.view-id-sponsored_projects div.views-field.views-fie
 }
 
 .faq {
-			counter-reset: my-badass-counter;
-		}
-		.faq dt {
-			position: relative;
-			font: bold 16px ;
-			padding: 17px 0px 10px 0px;
-		}
-		.faq dt:before {
-			content: counter(my-badass-counter);
-			counter-increment: my-badass-counter;
-			position: absolute;
-			left: 0;
-			top: 0;
-			font: bold 20px/1 Sans-Serif;
-			background-color:#8FDFE2;
-			padding: 15px;
-      padding-left:20px;
-      padding-right:20px;
-			border-radius: 100px;
-      color:white;
+	counter-reset: my-badass-counter;
+}
+.faq dt {
+	position: relative;
+	font: bold 16px ;
+	padding: 17px 0px 10px 0px;
+}
+.faq dt:before {
+	content: counter(my-badass-counter);
+	counter-increment: my-badass-counter;
+	position: absolute;
+	left: 0;
+	top: 0;
+	font: bold 20px/1 Sans-Serif;
+	background-color:#8FDFE2;
+	padding: 15px 20px;
+	border-radius: 100px;
+  color:white;
+}
+.faq dd {
+	margin: 0px 0px 20px 0px;
+}
+.faq dt, .faq dd {
+	padding-left: 60px;
+	padding-right:50px;
 
-
-
-		}
-		.faq dd {
-			margin: 0px 0px 20px 0px;
-		}
-		.faq dt, .faq dd {
-			padding-left: 60px;
-			padding-right:50px;
-
-		}
+}
 
 
 /* END JFF styles */
