@@ -368,8 +368,8 @@ div.social-media a.vimeo {
 	height: auto;
 }
 
-.view-display-id-events_embed .views-field-title {
-	margin-top: 1em;
+.view-display-id-events_embed .views-row {
+	margin-bottom: 1em;
 }
 
 .label {
