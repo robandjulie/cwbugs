@@ -253,16 +253,15 @@ div.social-media a.vimeo {
 	margin-right: 2%;
 }
 
+.pane-class-sessions-adult-classes-embed,
 .pane-calendar-events-embed,
 .fieldable-panels-pane,
 .cf-box {
 	border: 2px solid #8cdde0;
-	margin: 2em inherit;
+	margin: 2em 0.5em;
 }
 
-.panels-flexible-column-inside {
-	padding: 0px !important;
-}
+
 
 .pane-title {
 	text-transform: uppercase;
@@ -271,10 +270,16 @@ div.social-media a.vimeo {
 
 
 .fieldable-panels-pane .field-name-field-pane-title,
+.pane-class-sessions-adult-classes-embed .pane-title,
+.pane-calendar-events-embed .pane-title,
+.cf-box-title {
+	margin: 0.25em 0.5em;
+}
+
 .fieldable-panels-pane .field-name-field-body,
-.cf-box-title,
+.pane-calendar-events-embed .view-content,
 .cf-box-body {
-	margin: 0px 20px 20px 0;
+	margin: 0 1em;
 }
 
 .fieldable-panels-pane .field-name-field-image,
@@ -298,7 +303,6 @@ div.social-media a.vimeo {
 .fieldable-panels-pane .field-name-field-pane-title {
 	font-family: 'Pathway Gothic One', "Futura-CondensedMedium", "HelveticaNeue-Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #ef6a25;
-	margin-top: 20px;
 	font-size: 30px;
 	text-transform: uppercase;
 }
