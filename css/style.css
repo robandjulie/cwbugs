@@ -372,14 +372,8 @@ div.social-media a.vimeo {
 	margin-top: 1em;
 }
 
-.tag {
+.label {
 	text-transform: lowercase;
-	font-weight: bold;
-	color: white;
-	background-color: #ef6a25;
-	border-radius: 0.25em;
-	padding-left: 0.5em;
-	padding-right: 0.5em;
 }
 
 
