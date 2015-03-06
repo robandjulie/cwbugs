@@ -253,9 +253,11 @@ div.social-media a.vimeo {
 	margin-right: 2%;
 }
 
+.pane-calendar-events-embed,
 .fieldable-panels-pane,
 .cf-box {
 	border: 2px solid #8cdde0;
+	margin: 2em inherit;
 }
 
 .panels-flexible-column-inside {
@@ -272,7 +274,7 @@ div.social-media a.vimeo {
 .fieldable-panels-pane .field-name-field-body,
 .cf-box-title,
 .cf-box-body {
-	margin: 0px 20px 20px;
+	margin: 0px 20px 20px 0;
 }
 
 .fieldable-panels-pane .field-name-field-image,
@@ -324,6 +326,10 @@ div.social-media a.vimeo {
 	color: #fff;
 }
 
+.fieldable-panels-pane .field-name-field-footer-link a {
+	margin: 24px -17px -24px 17px;
+}
+
 .cf-box-link a:before,
 .fieldable-panels-pane .field-name-field-internal-link a:before {
 	content: "+ ";
@@ -361,6 +367,21 @@ div.social-media a.vimeo {
 	max-width: 100%;
 	height: auto;
 }
+
+.view-display-id-events_embed .views-field-title {
+	margin-top: 1em;
+}
+
+.tag {
+	text-transform: lowercase;
+	font-weight: bold;
+	color: white;
+	background-color: #ef6a25;
+	border-radius: 0.25em;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}
+
 
 /* HOMEPAGE SLIDESHOW */
 
