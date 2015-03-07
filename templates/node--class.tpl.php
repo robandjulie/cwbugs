@@ -94,15 +94,6 @@
 
       <?php print render($content['body']); ?>
 
-      <div class='class-details-footer field'>
-        <?php
-          print implode(array(
-            $content['field_class_duration']['#items'][0]['value'] . ' min'
-          ), ", ");
-        ?>
-
-      </div>
-
     </div>
 
   </div>
