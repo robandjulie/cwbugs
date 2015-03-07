@@ -167,8 +167,10 @@ a#donate-button,
 	color: #fff !important;
 }
 
-.small-button {
-	margin: 1em 2em 1em 0;
+.small-button, .small-button a, .small-button:hover {
+	text-decoration: none;
+	color: #fff !important;
+	width: 300px;
 }
 
 a#buy-tickets-register-button {
