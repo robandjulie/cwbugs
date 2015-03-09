@@ -156,6 +156,8 @@ a#donate-button:hover, a#buy-tickets-register-button:hover,
 
 a#donate-button,
 .blue-button,
+.blue-button a,
+.blue-button a:hover,
 .field-name-field-footer-link a,
 .view .more-link a {
 	background-color: #8cdde0;
@@ -163,6 +165,7 @@ a#donate-button,
 	text-shadow: 1px 1px 1px #39b9be;
 	margin-bottom: 4px;
 	color: #fff !important;
+	text-decoration: none;
 }
 
 .small-button, .small-button a, .small-button:hover {
@@ -800,7 +803,16 @@ div.view-sponsored-projects.view-id-sponsored_projects div.views-field.views-fie
 	float: right;
 }
 
-.node-class .group-left .field {
+.node-class .group-header {
+	margin-bottom: 2em;
+}
+
+.group-left { padding-right: 1em; }
+.group-right { padding-left: 1em; }
+
+.node-class .group-left .field,
+.node-class .group-right .field,
+.node-class-session .field-label-above {
 	padding-top: 0.5em;
 }
 
