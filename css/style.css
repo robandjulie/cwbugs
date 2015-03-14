@@ -792,7 +792,7 @@ div.view-sponsored-projects.view-id-sponsored_projects div.views-field.views-fie
 }
 
 .view-sponsored-projects tr, .view-cdmpf-recipients tr {
-	border-bottom: solid 1px darkgray;
+	border-bottom: solid 1px #A9A9A9;
 }
 
 .view-sponsored-projects tr.row-last, .view-cdmpf-recipients tr.row-last {
@@ -814,6 +814,19 @@ div.view-sponsored-projects.view-id-sponsored_projects div.views-field.views-fie
 .node-class .group-right .field,
 .node-class-session .field-label-above {
 	padding-top: 0.5em;
+}
+
+.view-display-id-block_upcoming_sessions .views-row {
+	padding: 1.5em inherit;
+	border-bottom: solid 1px #a9a9a9;
+}
+
+.view-display-id-block_upcoming_sessions .views-row-first {
+	padding-top: 0;
+}
+
+.view-display-id-block_upcoming_sessions .views-row-last {
+	border-bottom: none;
 }
 
 /* =RPJD end */
