@@ -890,6 +890,60 @@ div.view-sponsored-projects.view-id-sponsored_projects div.views-field.views-fie
 .faq dt, .faq dd {
 	padding-left: 60px;
 }
+/*this is for the offset readmore bottom bluebutton effect	*/
+		#offset {
+			padding-left:20px;
+			padding-bottom:20px;
+		}
+		
+		.blue-button, .field-name-field-footer-link a {
+			margin-left:15px;
+			margin-right:-15px;
+			margin-top:20px;
+			margin-bottom:-20px;
+		}
+	  
+	   .toppad {
+		   padding-top:20px;
+		   
+	   }
+	   /*this is for stripping box styles off off of adult classes $ workshop page	*/
+	.no-image img{
+		display:none;
+	}
+	 
+	 .no-image div {
+		 border:none;
+		}
+		  
+		  .no-image .field-type-link-field div{
+			 display:none;
+		  }
 
 
+
+
+
+	.panels-flexible-row, .panels-flexible-row-7-main-row panels-flexible-row-first, .head-stretch img{
+		width:100%;
+		height:100%;
+	}
+ 
+ 
+ 
+    
+	#no-border-list-style {
+		border:none;
+		
+	}
+	
+	 #no-border-list-style ul {
+		 
+		 list-style-type: none;
+		 font-style:oblique;
+		 padding-left:20px;
+	    padding-bottom:20px;
+		
+		 
+	 }
 /* END JFF styles */
