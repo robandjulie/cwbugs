@@ -785,7 +785,7 @@ div.view-sponsored-projects.view-id-sponsored_projects div.views-field.views-fie
 	margin-right: 15px;
 }
 
-/* =RPJD */
+/* --------------------- =RPJD --------------------- */
 
 .view-sponsored-projects.view-id-sponsored_projects table.views-view-grid td, .view-cdmpf-recipients table.views-view-grid td {
 	padding-bottom: 15px;
@@ -810,8 +810,7 @@ div.view-sponsored-projects.view-id-sponsored_projects div.views-field.views-fie
 .group-left { padding-right: 1em; }
 .group-right { padding-left: 1em; }
 
-.node-class .group-left .field,
-.node-class .group-right .field,
+.node-class .field,
 .node-class-session .field-label-above {
 	padding-top: 0.5em;
 }
@@ -829,7 +828,7 @@ div.view-sponsored-projects.view-id-sponsored_projects div.views-field.views-fie
 	border-bottom: none;
 }
 
-/* =RPJD end */
+/* --------------------- =RPJD end --------------------- */
 
 .view-id-classes .views-field-field-featured-image {
 	float: left;
