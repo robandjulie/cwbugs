@@ -811,6 +811,7 @@ div.view-sponsored-projects.view-id-sponsored_projects div.views-field.views-fie
 .group-right { padding-left: 1em; }
 
 .node-class .field,
+.node-sponsored-project .field,
 .node-class-session .field-label-above {
 	padding-top: 0.5em;
 }
