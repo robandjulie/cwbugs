@@ -390,7 +390,8 @@ div.social-media a.vimeo {
 
 /* HOMEPAGE SLIDESHOW */
 
-.views_slideshow_slide {
+#homepage-slideshow,
+#screenings-carousel {
 	margin-left: -35px;
 	width: 923px;
 	font-family: 'Pathway Gothic One', "Futura-CondensedMedium", "HelveticaNeue-Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -404,7 +405,7 @@ div.social-media a.vimeo {
 }
 
 #homepage-slideshow .views-field-title,
-.views_slideshow_slide .views-field-title {
+#screenings-carousel .views-field-title {
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	background-color: #8cdde0;
@@ -416,8 +417,8 @@ div.social-media a.vimeo {
 
 #homepage-slideshow .views-field-title a,
 #homepage-slideshow .views-field-title a:hover,
-.views_slideshow_slide .views-field-title a,
-.views_slideshow_slide .views-field-title a:hover {
+#screenings-carousel .views-field-title a,
+#screenings-carousel .views-field-title a:hover {
 	color: #fff;
 	text-decoration: none;
 }
@@ -433,6 +434,11 @@ div.social-media a.vimeo {
 	padding-right: 10px;
 }
 
+#homepage-slideshow .views-field-field-secondary-copy a,
+#homepage-slideshow .views-field-field-secondary-copy a:hover {
+	color: #fff;
+	text-decoration: none;
+}
 
 #homepage-slideshow .homepage_slideshow_titles_outer_wrapper {
 	position: absolute;
