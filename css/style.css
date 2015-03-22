@@ -881,8 +881,8 @@ div.view-sponsored-projects.view-id-sponsored_projects div.views-field.views-fie
 }
 .faq dt {
 	position: relative;
-	font: bold 16px ;
-	padding: 17px 0px 10px 0px;
+	font: bold 13px ;
+	padding: 10px 0px 8px 0px;
 }
 .faq dt:before {
 	content: counter(my-badass-counter);
@@ -890,17 +890,23 @@ div.view-sponsored-projects.view-id-sponsored_projects div.views-field.views-fie
 	position: absolute;
 	left: 0;
 	top: 0;
-	font: bold 20px/1 Sans-Serif;
+	font: bold 15px/1 Sans-Serif;
 	background-color:#8FDFE2;
-	padding: 15px 20px;
+	padding: 10px 13px;
 	border-radius: 100px;
   color:white;
 }
 .faq dd {
-	margin: 0px 0px 20px 0px;
+	margin: 0px 0px 0px 0px;
 }
 .faq dt, .faq dd {
-	padding-left: 60px;
+	padding-left: 55px;
+}
+
+.pane-block-9{
+	
+	margin-left:10px;
+	
 }
 /*this is for the offset readmore bottom bluebutton effect	*/
 		#offset {
@@ -958,4 +964,23 @@ div.view-sponsored-projects.view-id-sponsored_projects div.views-field.views-fie
 		
 		 
 	 }
+	 
+	 .smalltext{
+	font-size: 12px;
+	
+	 }
+	 
+	 
+	
+#screenings-carousel {
+	margin-left: -35px;
+	width: 923px;
+	font-family: 'Pathway Gothic One', "Futura-CondensedMedium", "HelveticaNeue-Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	clear: both;
+	margin-bottom: 0px;
+} 
+	 
+	 
+	 
+	 
 /* END JFF styles */
