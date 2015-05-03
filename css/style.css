@@ -105,7 +105,7 @@ ul#superfish-1 * {
 }
 
 ul#superfish-1 > li {
-	padding-left: 24px;
+	padding-left: 14px;
 	width: 250px;
 }
 
@@ -366,6 +366,7 @@ div.social-media a.vimeo {
 	font-family: 'Roboto', Helvetica, Arial, sans-serif;
 	font-weight: 300;
 	color: #475455;
+	font-size: 13px;
 }
 
 .region-content a {
@@ -958,29 +959,155 @@ div.view-sponsored-projects.view-id-sponsored_projects div.views-field.views-fie
 	 #no-border-list-style ul {
 		 
 		 list-style-type: none;
-		 font-style:oblique;
-		 padding-left:20px;
-	    padding-bottom:20px;
+		
+	
 		
 		 
 	 }
 	 
-	 .smalltext{
-	font-size: 12px;
+	
+ .pad{
+margin-left:50px;
 	
 	 }
+
 	 
 	 
 	
 #screenings-carousel {
-	margin-left: -35px;
-	width: 923px;
+	
+	width: 820px;
+	
 	font-family: 'Pathway Gothic One', "Futura-CondensedMedium", "HelveticaNeue-Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	clear: both;
 	margin-bottom: 0px;
 } 
-	 
-	 
-	 
-	 
+	
+	.date-display-single  {
+		font-family: 'Pathway Gothic One', "Futura-CondensedMedium", "HelveticaNeue-Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-decoration:bold;
+		font-weight:400;
+		font-size:15px;
+		
+	}
+	/*--------------------------------------------------------------------this is for the page Adult classes -------------------------------*/
+	.pane-class-sessions-adult-classes-embed .views-row .date-display-single {
+	
+				background-color: #ef6a25;
+				color: #fff;
+				font-family: 'Pathway Gothic One', "Futura-CondensedMedium", "HelveticaNeue-Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
+				padding:2px 2px 0px 2px;	
+				margin-left: -25px ;
+		
+	}
+	
+.pane-class-sessions-adult-classes-embed .views-row .field-content a{
+				float:right;
+		
+	}
+	
+	
+	
+	/*-------------------END END-------this is for the page Adult classes -------------------------------*/
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/*--------------------------------------------------------------------this is for the page YOUTH classes -------------------------------*/
+	
+.pane-class-sessions-panel-pane-2 .views-row .date-display-single{
+				background-color: #ef6a25;
+				color: #fff;
+				padding:2px 2px 0px 2px;	
+			     margin-left:-75px;
+				 float:left;
+			
+			
+				
+		        
+	}	
+	
+	
+
+
+
+     .youthlist{
+	padding-right:0px;
+	  list-style-type: none;
+	margin-left:40px;
+	
+}
+	.panel-pane .pane-views-panes .pane-class-sessions-panel-pane-2  {
+		
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/*---------------END END END---------------this is for the page YOUTH classes -------------------------------*/
+	
+		
+/*		
+		
+.cf-date-box {
+	position: relative;
+	border: 2px solid #8cdde0;
+	margin-top: 70px;
+}
+
+.cf-date-box .cf-date-wrapper {
+	width: 130px;
+	height: 130px;
+	background-color: #ef6a25;
+	color: #fff;
+	font-family: 'Pathway Gothic One', "Futura-CondensedMedium", "HelveticaNeue-Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin: -45px 25px 18px -25px;
+	text-align: center;
+	float: left;
+}
+
+.cf-date-box .cf-date-location {
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.cf-date-box .cf-date-month {
+	font-size: 3em;
+	text-transform: uppercase;
+	margin-top: 4px;
+}
+.cf-date-box .cf-date-day {
+	font-size: 6em;
+	margin-top: -31px;
+	margin-left: -3px;
+}
+
+.cf-date-box .cf-date-box-tickets a {
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	margin-bottom: -17px;
+	margin-right: -47px;
+	padding: 4px 51px;
+}
+*/
 /* END JFF styles */
