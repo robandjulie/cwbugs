@@ -842,6 +842,10 @@ div.view-sponsored-projects.view-id-sponsored_projects div.views-field.views-fie
 	border-bottom: none;
 }
 
+.node-media-fund-recipient .group-left .field {
+	margin-bottom: 2em;
+}
+
 /* --------------------- =RPJD end --------------------- */
 
 .view-id-classes .views-field-field-featured-image {
