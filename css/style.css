@@ -1088,7 +1088,8 @@ margin-left:50px;
 .group-cf-date-box {
 	position: relative;
 	border: 2px solid #8cdde0;
-	margin-top: 40px;
+	margin-top: 50px;
+	margin-left: 22px;
 }
 
 .group-cf-date-box .field-name-field-date-time {
