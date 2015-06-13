@@ -142,6 +142,7 @@ a#donate-button, a#buy-tickets-register-button,
 a#donate-button:hover, a#buy-tickets-register-button:hover,
 .blue-button, .blue-button:hover,
 .field-name-field-footer-link a, .field-name-field-footer-link a:hover,
+.field-name-field-tickets-url a, .field-name-field-tickets-url a:hover,
 .view .more-link a {
 	font-family: 'Pathway Gothic One', "Futura-CondensedMedium", "HelveticaNeue-Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-transform: uppercase;
@@ -159,6 +160,7 @@ a#donate-button,
 .blue-button a,
 .blue-button a:hover,
 .field-name-field-footer-link a,
+.field-name-field-tickets-url a,
 .view .more-link a {
 	background-color: #8cdde0;
 	border-bottom: 1px solid #39b9be;
@@ -846,6 +848,10 @@ div.view-sponsored-projects.view-id-sponsored_projects div.views-field.views-fie
 	margin-bottom: 2em;
 }
 
+.node-screening .group-header {
+	margin-bottom: 1em;
+}
+
 /* --------------------- =RPJD end --------------------- */
 
 .view-id-classes .views-field-field-featured-image {
@@ -925,7 +931,16 @@ div.view-sponsored-projects.view-id-sponsored_projects div.views-field.views-fie
 			margin-top:20px;
 			margin-bottom:-20px;
 		}
-	  
+
+		.group-cf-date-box .field-name-field-tickets-url a {
+			float: right;
+			width: 200px;
+			margin-left:15px;
+			margin-right:-15px;
+			margin-top:-20px;
+			margin-bottom:-20px;
+		}
+
 	   .toppad {
 		   padding-top:20px;
 		   
@@ -1068,17 +1083,15 @@ margin-left:50px;
 	
 	
 	/*---------------END END END---------------this is for the page YOUTH classes -------------------------------*/
-	
-		
-/*		
-		
-.cf-date-box {
+
+
+.group-cf-date-box {
 	position: relative;
 	border: 2px solid #8cdde0;
-	margin-top: 70px;
+	margin-top: 40px;
 }
 
-.cf-date-box .cf-date-wrapper {
+.group-cf-date-box .field-name-field-date-time {
 	width: 130px;
 	height: 130px;
 	background-color: #ef6a25;
@@ -1089,19 +1102,20 @@ margin-left:50px;
 	float: left;
 }
 
-.cf-date-box .cf-date-location {
+.group-cf-date-box .field-name-field-location {
 	margin-top: 20px;
 	margin-bottom: 30px;
 }
 
-.cf-date-box .cf-date-month {
+.group-cf-date-box #bm {
 	font-size: 3em;
 	text-transform: uppercase;
-	margin-top: 4px;
+	margin-top: -5px;
 }
-.cf-date-box .cf-date-day {
+.cf-date-box .cf-date-day,
+.group-cf-date-box #bd {
 	font-size: 6em;
-	margin-top: -31px;
+	margin-top: -40px;
 	margin-left: -3px;
 }
 
@@ -1113,5 +1127,4 @@ margin-left:50px;
 	margin-right: -47px;
 	padding: 4px 51px;
 }
-*/
 /* END JFF styles */
