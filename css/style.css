@@ -358,6 +358,8 @@ div.social-media a.vimeo {
 
 .clearboth { clear: both; }
 
+.uppercase { text-transform: uppercase; }
+
 .row {
 	margin: 0px;
 }
