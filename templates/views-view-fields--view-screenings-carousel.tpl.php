@@ -22,22 +22,31 @@
  * - $row: The raw result object from the query, with all data it fetched.
  *
  * @ingroup views_templates
+ *
+ * $fields['field_featured_image']
+ * $fields['title']
+ * $fields['field_date_time']
+ *
  */
-
-	// if video is set, do not show the featured image
-	if (isset($fields['field_video']) && preg_match('/media/', $fields['field_video']->content)) {
-		unset($fields['field_featured_image']);
-	}
-
 ?>
-<?php foreach ($fields as $id => $field): ?>
+<?php print $fields['field_featured_image']->wrapper_prefix; ?>
+	<?php print $fields['field_featured_image']->label_html; ?>
+	<?php print $fields['field_featured_image']->content; ?>
+<?php print $fields['field_featured_image']->wrapper_suffix; ?>
 
-  <?php if (!empty($field->separator)): ?>
-    <?php print $field->separator; ?>
-  <?php endif; ?>
+	<div class="view_screenings_carousel_titles_outer_wrapper">
+		<div class="view_screenings_carousel_titles_inner_wrapper">
 
-  <?php print $field->wrapper_prefix; ?>
-    <?php print $field->label_html; ?>
-    <?php print $field->content; ?>
-  <?php print $field->wrapper_suffix; ?>
-<?php endforeach; ?>
+			<?php print $fields['title']->wrapper_prefix; ?>
+				<?php print $fields['title']->label_html; ?>
+				<?php print $fields['title']->content; ?>
+			<?php print $fields['title']->wrapper_suffix; ?>
+
+			<?php print $fields['field_date_time']->wrapper_prefix; ?>
+				<?php print $fields['field_date_time']->label_html; ?>
+				<?php print $fields['field_date_time']->content; ?>
+			<?php print $fields['field_date_time']->wrapper_suffix; ?>
+
+		</div>
+		<div class="clearfix"></div>
+	</div>
