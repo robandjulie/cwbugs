@@ -991,17 +991,13 @@ div.view-sponsored-projects.view-id-sponsored_projects div.views-field.views-fie
 	 #no-border-list-style ul {
 		 
 		 list-style-type: none;
-		
-	
-		
-		 
 	 }
-	 
-	
- .pad{
-margin-left:50px;
-	
-	 }
+
+
+
+	.pad {
+		margin-left:50px;
+	}
 
 
 	.date-display-single  {
@@ -1013,36 +1009,42 @@ margin-left:50px;
 	}
 	/*--------------------------------------------------------------------this is for the page Adult classes -------------------------------*/
 	.view-display-id-more_screenings_pane .pane-class-sessions-adult-classes-embed .views-row .date-display-single {
-	
-				background-color: #ef6a25;
-				color: #fff;
-				font-family: 'Pathway Gothic One', "Futura-CondensedMedium", "HelveticaNeue-Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
-				padding:2px 2px 0px 2px;	
-				margin-left: -55px ;
-		
+		background-color: #ef6a25;
+		color: #fff;
+		font-family: 'Pathway Gothic One', "Futura-CondensedMedium", "HelveticaNeue-Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		padding:2px 2px 0px 2px;
+		margin-left: -55px ;
 	}
-	
-.pane-class-sessions-adult-classes-embed .views-row .field-content a{
-				float:right;
-		
-	}
-	
-	.view-display-id-more_screenings_pane .views-row .date-display-single{
-			background-color: #ef6a25;
-				color: #fff;
-				font-family: 'Pathway Gothic One', "Futura-CondensedMedium", "HelveticaNeue-Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
-				padding:2px 2px 0px 2px;	
-				margin-left: -55px ;
-		       
-		
-	}
-	
-	.view-display-id-more_screenings_pane .views-row .field-content a{
-		         font-size:12px;
+
+.pane-class-sessions-adult-classes-embed .views-row .field-content a {
 				float:right;
 	}
-	
-	
+
+ul.more-screenings-pane-list {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+ul.more-screenings-pane-list li {
+	margin-bottom: 0.25em;
+}
+
+ul.more-screenings-pane-list li span.date-display-single {
+	background-color: #ef6a25;
+	color: #fff;
+	font-family: 'Pathway Gothic One', "Futura-CondensedMedium", "HelveticaNeue-Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	/* padding: 0 0.5em; */
+	display: inline-block;
+	width: 3em;
+	text-align: center;
+	/* margin-left: -55px ; */
+}
+
+ul.more-screenings-pane-list li a {
+	font-size: 90%;
+}
+
+
 	/*-------------------END END-------this is for the page Adult classes -------------------------------*/
 	
 	
