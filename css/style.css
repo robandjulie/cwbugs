@@ -621,6 +621,12 @@ body.node-type-screening .group-footer {
 	padding-top: 50px;
 }
 
+.node-screening .field-name-body,
+.node-screening .field-name-field-country-origin,
+.node-screening .field-name-field-duration {
+	margin-bottom: 0.5em;
+}
+
 #screening-video {
 	width: 488px;
 	float: left;
@@ -1119,13 +1125,13 @@ margin-left:50px;
 .screening-date .month {
 	font-size: 3em;
 	text-transform: uppercase;
-	margin-top: -5px;
+	margin-top: 0;
 }
 .cf-date-box .cf-date-day,
 .group-cf-date-box .bd,
 .screening-date .day {
 	font-size: 6em;
-	margin-top: -40px;
+	margin-top: -30px;
 	margin-left: -3px;
 }
 
