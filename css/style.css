@@ -1021,6 +1021,20 @@ margin-left:50px;
 		
 	}
 	
+	.view-display-id-more_screenings_pane .views-row .date-display-single{
+			background-color: #ef6a25;
+				color: #fff;
+				font-family: 'Pathway Gothic One', "Futura-CondensedMedium", "HelveticaNeue-Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
+				padding:2px 2px 0px 2px;	
+				margin-left: -55px ;
+		       
+		
+	}
+	
+	.view-display-id-more_screenings_pane .views-row .field-content a{
+		         font-size:12px;
+				float:right;
+	}
 	
 	
 	/*-------------------END END-------this is for the page Adult classes -------------------------------*/
