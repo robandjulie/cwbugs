@@ -163,7 +163,7 @@ a#donate-button,
 .field-name-field-tickets-url a,
 .view .more-link a {
 	background-color: #8cdde0;
-	border-bottom: 1px solid #39b9be;
+	
 	text-shadow: 1px 1px 1px #39b9be;
 	margin-bottom: 4px;
 	color: #fff !important;
@@ -1006,7 +1006,7 @@ margin-left:50px;
 
 	}
 	/*--------------------------------------------------------------------this is for the page Adult classes -------------------------------*/
-	.pane-class-sessions-adult-classes-embed .views-row .date-display-single {
+	.view-display-id-more_screenings_pane .pane-class-sessions-adult-classes-embed .views-row .date-display-single {
 	
 				background-color: #ef6a25;
 				color: #fff;
