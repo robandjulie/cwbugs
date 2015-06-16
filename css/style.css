@@ -362,6 +362,8 @@ div.social-media a.vimeo {
 	margin: 0px;
 }
 
+.uppercase { text-transform: uppercase; }
+
 .region-content {
 	margin-left: 20px;
 	padding-top: 10px;
@@ -1020,16 +1022,16 @@ div.view-sponsored-projects.view-id-sponsored_projects div.views-field.views-fie
 				float:right;
 	}
 
-ul.more-screenings-pane-list {
+ul.more-pane-list {
 	list-style-type: none;
 	padding-left: 0;
 }
 
-ul.more-screenings-pane-list li {
+ul.more-pane-list li {
 	margin-bottom: 0.25em;
 }
 
-ul.more-screenings-pane-list li span.date-display-single {
+ul.more-pane-list li span.date-display-single {
 	background-color: #ef6a25;
 	color: #fff;
 	font-family: 'Pathway Gothic One', "Futura-CondensedMedium", "HelveticaNeue-Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -1040,7 +1042,7 @@ ul.more-screenings-pane-list li span.date-display-single {
 	/* margin-left: -55px ; */
 }
 
-ul.more-screenings-pane-list li a {
+ul.more-pane-list li a {
 	font-size: 90%;
 }
 
