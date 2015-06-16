@@ -1001,6 +1001,10 @@ div.view-sponsored-projects.view-id-sponsored_projects div.views-field.views-fie
 		margin-left:50px;
 	}
 
+	.smallpad {
+		margin: 1em;
+	}
+
 
 	.date-display-single  {
 		font-family: 'Pathway Gothic One', "Futura-CondensedMedium", "HelveticaNeue-Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
