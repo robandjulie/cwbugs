@@ -1108,25 +1108,24 @@ ul.more-pane-list li a {
 .field-collection-item-field-screening-dates {
 	position: relative;
 	border: 2px solid #8cdde0;
-	margin: 50px 22px;
+	margin: 50px 12px;
 	clear: both;
 }
 
 .group-cf-date-box .field-name-field-date-time,
 .field-collection-item-field-screening-dates .screening-date-wrapper {
-	width: 130px;
-	height: 130px;
+	width: 110px;
+	height: 110px;
 	background-color: #ef6a25;
 	color: #fff;
 	font-family: 'Pathway Gothic One', "Futura-CondensedMedium", "HelveticaNeue-Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	margin: -45px 25px 18px -25px;
+	margin: -15px 15px 15px -15px;
 	text-align: center;
 	float: left;
 }
 
 .group-cf-date-box .field-name-field-location {
-	margin-top: 20px;
-	margin-bottom: 30px;
+	margin: 20px auto 30px auto;
 }
 
 .group-cf-date-box .bm,
@@ -1138,8 +1137,8 @@ ul.more-pane-list li a {
 .cf-date-box .cf-date-day,
 .group-cf-date-box .bd,
 .screening-date .day {
-	font-size: 6em;
-	margin-top: -30px;
+	font-size: 5em;
+	margin-top: -25px;
 	margin-left: -3px;
 }
 
